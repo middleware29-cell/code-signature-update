@@ -1,0 +1,14 @@
+{
+    "application": "Code Signature Demo",
+    "version": "1.0.0",
+    "signature_algorithm": "Ed25519",
+    "hash_algorithm": "SHA256",
+    "update_server": "https://updates.example.com",
+    "require_signature": true,
+    "key_fingerprint": "auto-generated",
+    "security_policy": {
+        "fail_secure": true,
+        "backup_before_update": true,
+        "verify_before_execution": true
+    }
+}

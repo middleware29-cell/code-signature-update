@@ -1,0 +1,23 @@
+# Exemples d'utilisation
+
+## Fichiers disponibles
+
+| Fichier | Description |
+|---------|-------------|
+| `hello_world.py` | Script simple à signer |
+| `update_script.py` | Script de mise à jour exemple |
+| `malicious_file.py` | Fichier malveillant (tests) |
+| `unsigned_script.py` | Script non signé |
+| `config.json` | Configuration exemple |
+
+## Test rapide
+
+```bash
+# Signer hello_world.py
+python main.py sign examples/hello_world.py
+
+# Vérifier la signature
+python main.py verify examples/hello_world.py
+
+# Tester avec un fichier non signé
+python main.py verify examples/unsigned_script.py
